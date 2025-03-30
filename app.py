@@ -1,6 +1,6 @@
 import streamlit as st
 
-st.title("Authentication")
+st.title("Glink")
 
 if not st.experimental_user.is_logged_in:
     if st.button("Login"):
